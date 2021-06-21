@@ -31,6 +31,10 @@ img{
 .textend{
     width: 10%;
 }
+.gif{
+    height: 900px;
+    width: 900px;
+}
 .box1{
     background: url(../img/bckgrnd.jpg) repeat-y ;
     background-size: 100%;
