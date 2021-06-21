@@ -1,3 +1,135 @@
-.profil{
-    size: 10%;
+body{
+    background-color:black;
+}
+.mainContainer{
+    display: flex;
+    flex-wrap: wrap;
+    border-collapse: collapse;
+}
+header{
+    display: flex;
+    height: 460px;
+}
+.textstart{
+    width: 10%;
+}
+img{
+    border: 0;
+    width: 900px;
+    height: 900px;
+}
+.text{
+    color: rgb(52, 52, 148);
+    background-color: rgba(255, 255, 255, .6);
+    width: 80%;
+    height: 900px;
+    align-self: center;
+    border: 1px solid white;    
+    font-size: 30px;
+}
+.textend{
+    width: 10%;
+}
+.box1{
+    background: url(../img/bckgrnd.jpg) repeat-y ;
+    background-size: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    height: 410px;    
+}
+.coord{
+    color: rgb(52, 52, 148);
+    background-color: rgba(255, 255, 255, .6);
+    border: 1px solid black;
+    margin-top: 30px;
+    margin-left: 50px;
+    width: 33%;
+    height: 320px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    justify-content: center;    
+    padding-top: 5px;
+}
+.box1center{
+    width: 40%;
+}
+.photo{
+    background: url(../img/profil2.jpg);
+    width: 320px;
+    height: 320px;
+    margin-top: 30px;
+    margin-right: 30px;
+    display: flex;
+    border: 1px solid black;
+    border-radius: 160px;
+    justify-content: space-between;
+}
+
+.box2{
+    background-color: black;
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    color: #fff;
+    justify-content: center;
+}
+.box2col{
+    background-color: black;
+    height: 50px;
+    width: 25%;
+    border: 1px solid white;
+}
+.box3{
+    background: url(../img/bckgrnd.jpg) repeat-y;
+    height: 980px;
+    width: 100%;
+    border: 1px solid white;
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+    justify-content: space-between;
+}
+h1{
+    text-align: center;
+    color: white;    
+    justify-content: center;
+}
+.box3col{
+    background-color: black;
+    height: 250px;
+    width: 66%;
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+.box4{
+    background-color: black;
+    height: 100px;
+    border: 1px solid white;
+    
+}
+.row {
+    flex-direction: column;
+    align-content: center;
+}
+ul{
+    padding-top: 40px;
+}
+ul, li{
+    text-align: left;
+    list-style-type: circle;
+}
+h1{
+    padding-top: 50px;
+}
+h1, h2, h3, h4, h5{
+    padding-bottom: 50px;
+    text-decoration: underline;
+}
+a:hover{
+    background-color: rgb(138, 138, 15);
 }
