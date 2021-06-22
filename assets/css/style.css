@@ -1,23 +1,28 @@
 body{
     background-color:black;
 }
+
 .mainContainer{
     display: flex;
     flex-wrap: wrap;
     border-collapse: collapse;
 }
+
 header{
     display: flex;
     height: 460px;
 }
+
 .textstart{
     width: 10%;
 }
+
 img{
     border: 0;
     width: 900px;
     height: 900px;
 }
+
 .text{
     color: rgb(52, 52, 148);
     background-color: rgba(255, 255, 255, .6);
@@ -28,13 +33,16 @@ img{
     font-size: 30px;
     border-radius: 40px;
 }
+
 .textend{
     width: 10%;
 }
+
 .gif{
     height: 900px;
     width: 900px;
 }
+
 .box1{
     background: url(../img/bckgrnd.jpg) repeat-y ;
     background-size: 100%;
@@ -44,6 +52,7 @@ img{
     width: 100%;
     height: 420px;    
 }
+
 .coord{
     color: rgb(52, 52, 148);
     background-color: rgba(255, 255, 255, .6);
@@ -60,6 +69,7 @@ img{
     text-align: center;
     justify-content: center;
 }
+
 .box1center{
     color: rgb(52, 52, 148);
     background-color: rgba(255, 255, 255, .6);
@@ -77,6 +87,7 @@ img{
     justify-content: center;    
     padding-top: 5px;
 }
+
 .photo{
     background: url(../img/profil2.jpg);
     width: 300px;
@@ -98,16 +109,19 @@ img{
     color: #fff;
     justify-content: center;
 }
+
 .box2col{
     background-color: black;
     height: 40px;
     width: 19%;
 }
+
 .box2col2{
     background-color: black;
     height: 40px;
     width: 12%;
 }
+
 .box3{
     background: url(../img/bckgrnd.jpg) repeat-y fixed;
     height: 1000px;
@@ -117,17 +131,20 @@ img{
     align-self: center;
     justify-content: space-between;
 }
+
 .box3col1{
     align-self: center;
     display: flex;
     flex-wrap: wrap;
 }
+
 img{
     width: 75px;
     height: 75px;
     margin-top: 15px;
     margin-bottom: 15px;
 }
+
 h1, h3{
     text-align: center;   
     justify-content: center;
@@ -142,34 +159,42 @@ h1, h3{
     color: #fff;
     justify-content: center;    
 }
+
 .box4col{
     background-color: black;
     height: 100px;
     width: 19%;
 }
+
 .box4col2{
     background-color: black;
     height: 100px;
     width: 12%;    
 }
+
 .row {
     flex-direction: column;
     align-content: center;
 }
+
 ul{
     padding-top: 40px;
 }
+
 ul, li{
     text-align: left;
     list-style-type: disc;
 }
+
 h1{
     padding-top: 50px;
 }
+
 h1, h3, h5{
     padding-bottom: 50px;
     text-decoration: underline;
 }
+
 a:hover{
     background-color: rgb(255, 255, 255);
 }
